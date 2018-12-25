@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="sci.css" >
+        <title>Scientific Calculator</title>
+</head>
+<body>
+    <div class="fluid-container header">
+        <div class="container">
+            <img src="logo.png" width="150px;" class="logo">
+            <h1 class="in_header">Google Scientific Calulator</h1>
+        </div>
+    </div>
+    <div class="cal">
+         <form name="forms">
+
+             <table class="tab">
+                 <tr class="row">
+                     <td class="col" colspan="7">
+                         <input type="text" name="result" class="aa" >
+                    </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col"><input class="bttn" type="button" value="π" onclick="forms.result.value += Math.PI"></td>
+                        <td class="col"><input class="bttn" type="button" value="e" onclick="forms.result.value = Math.exp(forms.result.value)"></td>
+                        <td class="col"><input class="bttn" type="button" value="x!" onclick="forms.result.value = factorial(forms.result.value)"></td>
+                        <td class="col"><input class="bttn" type="button" value="(" onclick="forms.result.value += '('"></td>
+                        <td class="col"><input class="bttn" type="button" value=")" onclick="forms.result.value += ')'"></td>
+                        <td class="col"><input class="bttn" type="button" value="%" onclick="forms.result.value += '%'"></td>
+                        <td class="col"><input class="bttn" type="button" value="CE" onclick="forms.result.value =''"></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="col"><input class="bttn" type="button" value="arcsin" onclick="forms.result.value = Math.asin(forms.result.value)"></td>
+                        <td class="col"><input class="bttn" type="button" value="sin" onclick="forms.result.value = Math.sin(forms.result.value)"></td>
+                        <td class="col"><input class="bttn" type="button" value="ln" onclick="forms.result.value = Math.log(forms.result.value)"></td>
+                        <td class="col"><input class="bttn whi" type="button" value="7" onclick="forms.result.value += '7'"></td>
+                        <td class="col"><input class="bttn whi" type="button" value="8" onclick="forms.result.value += '8'"></td>
+                        <td class="col"><input class="bttn whi" type="button" value="9" onclick="forms.result.value += '9'"></td>
+                        <td class="col"><input class="bttn" type="button" value="/" onclick="forms.result.value += '/'"></td>
+                    </tr> 
+                    <tr class="row">
+                        <td class="col"><input class="bttn" type="button" value="arccos" onclick="forms.result.value = Math.acos(forms.result.value)"></td>
+                        <td class="col"><input class="bttn" type="button" value="cos" onclick="forms.result.value = Math.cos(forms.result.value)" ></td>
+                        <td class="col"><input class="bttn" type="button" value="log" onclick="forms.result.value = Math.log10(forms.result.value)"></td>
+                        <td class="col"><input class="bttn whi" type="button" value="4" onclick="forms.result.value += '4'"></td>
+                        <td class="col"><input class="bttn whi" type="button" value="5" onclick="forms.result.value += '5'"></td>
+                        <td class="col"><input class="bttn whi" type="button" value="6" onclick="forms.result.value += '6'"></td>
+                        <td class="col"><input class="bttn" type="button" value="*" onclick="forms.result.value += '*'"></td>
+                    </tr>  <tr class="row">
+                        <td class="col"><input class="bttn" type="button" value="arctan" onclick="forms.result.value = Math.atan(forms.result.value)"></td>
+                        <td class="col"><input class="bttn" type="button" value="tan" onclick="forms.result.value = Math.tan(forms.result.value)"></td>
+                        <td class="col"><input class="bttn" type="button" value="√" onclick="forms.result.value = Math.sqrt(forms.result.value)"></td>
+                        <td class="col"><input class="bttn whi" type="button" value="1" onclick="forms.result.value += '1'"></td>
+                        <td class="col"><input class="bttn whi" type="button" value="2" onclick="forms.result.value += '2'"></td>
+                        <td class="col"><input class="bttn whi" type="button" value="3" onclick="forms.result.value += '3'"></td>
+                        <td class="col"><input class="bttn" type="button" value="-" onclick="forms.result.value += '-'"></td>
+                    </tr>  <tr class="row">
+                        <td class="col"><input class="bttn" type="button" value="3√" onclick="forms.result.value=Math.cbrt(forms.result.value)"></td>
+                        <td class="col"><input class="bttn" type="button" value="cube" onclick="forms.result.value = Math.pow(forms.result.value,3)"></td>
+                        <td class="col"><input class="bttn" type="button" value="square" onclick="forms.result.value = Math.pow(forms.result.value,2)"></td>
+                        <td class="col"><input class="bttn whi" type="button" value="0" onclick="forms.result.value += '0'"></td>
+                        <td class="col"><input class="bttn whi" type="button" value="." onclick="forms.result.value += '.'"></td>
+                        <td class="col"><input class="bttn" type="button" id="equals" value="=" onclick="forms.result.value=eval(forms.result.value)" ></td>
+                        <td class="col"><input class="bttn" type="button" value="+" onclick="forms.result.value += '+'"></td>
+                    </tr>
+                    
+                </table>
+                
+            </form>
+            </div>
+        </body>
+        <script src="cal.js"></script>
+        </html>

@@ -1,0 +1,76 @@
+.header{
+    margin-top: -20px;
+    height: 100px;
+    background-color: #f2f2f2;
+}
+.logo{
+    margin-top:-12px;
+}
+.in_header{
+    /* background-color: blue; */
+    display: inline-block;
+    width: 70%;
+    padding-top:14px; 
+    height: 60px;
+    text-align: center;
+    color: #9272b2;
+    text-shadow: 2px 2px 2px wheat;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cal{
+    border: 1px solid lightgray;
+    width: 50%;
+    margin:50px auto 50px auto;
+    height: 350px;
+    box-shadow: 1px 1px 10px gray;
+}
+
+table{
+    width: 90%;
+    /* border: 1px solid red; */
+}
+td .aa{
+    border: 1px solid #c3c7cc;
+    width:  98.5%;
+    height: 43px;
+    padding:0px 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.1em;
+    margin-left:3px;
+    margin-bottom: 10px; 
+    text-align: right;
+}
+
+.but{
+    width: 75px;
+    height: 38px;
+    margin: 5px;
+}
+.tab{
+    margin:70px auto auto auto;
+}
+.bttn{
+    width:90%;
+    margin: 3px;
+    height: 35px;
+    border: 1px solid #c3c7cc;
+    box-shadow: 1px 1px 1px lightgray;
+    background-color: 	#E0E0E0;
+    outline: none;
+    
+   
+}
+td{
+    width:15%;
+}
+.whi{
+    background-color: #fcfdff;
+}
+#equals{
+    background-color: #5c8ef2;
+    color: white;
+}
+.ins{
+    
+}

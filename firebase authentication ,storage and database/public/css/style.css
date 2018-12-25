@@ -1,0 +1,149 @@
+body{
+    background-color: #EDE6E6;
+    height: 630px;
+    padding: 80px 0px;
+
+}
+.subDiv{
+    width: 55%;
+    height:450px;
+    background-color: white;
+    border-radius: 30px;
+}
+.divs{
+    /* border: 1px solid purple; */
+    width:90%;
+    margin: auto;
+    height: 360px;
+
+}
+.mmm{
+
+}
+.div1{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 49.5%;
+    height:360px;
+}
+
+.div2{
+    /* border: 1px solid orange; */
+    display: inline-block;
+    width: 47.5%;
+    float: right;
+    height:360px;
+    padding-left: 20px;
+
+    /* margin-bottom: 100px; */
+}
+.logo1{
+    width: 250px;
+    height: 330px;
+    padding-top: 40px;
+    display:block;
+    margin:15px auto;
+    /* border: 1px solid navy; */
+}
+.lab{
+    font-size: 0.8em;
+}
+.inp{
+    margin-left:-5px;
+    border: none;
+    border-bottom:1px solid black;
+    outline: none;
+    padding-left: 8px;
+    width: 70%;
+    /* font-size: 0.8em; */
+}
+.ap:hover{
+    text-decoration: none;
+}
+.abc{
+    display: none;
+}
+.abcd{
+    font-size: 0.7em;
+    color: red;
+    margin-top: 5px;
+    /* border: 1px solid red; */
+    margin-bottom: -24px;
+}
+.div1a{
+    border: 1px solid red;
+    height: auto;
+}
+.div11{
+    border: 1px solid brown;
+}
+.div12{
+    border: 1px solid purple;
+}
+.h11{
+    font-weight: bold;
+}
+.rem{
+    color:gray;
+}
+.sign{
+    width:90px;
+    margin-top:15px ;
+    margin-bottom:10px;
+}
+.h1h{
+    font-weight:bold;   
+}
+@media only Screen and (max-width:1000px){
+   
+    .subDiv{
+        width: 90%;
+        height:400px;
+        background-color: white;
+        border-radius: 30px;
+    }
+    .h11{
+        font-size: 1.7em;
+    }
+    .logo1{
+        width: 130px;
+        height: 200px;
+    }
+    .inp{
+        margin-left:-5px;
+        border: none;
+        border-bottom:1px solid black;
+        outline: none;
+        padding-left: 8px;
+        padding-bottom: 3px;
+        width: 70%;
+        font-size: 0.8em;
+    }
+    .abcd{
+        font-size: 0.5em;
+    }    
+    .rem{
+        font-size: 0.8em;
+        /* margin-top: -12px; */
+    }
+    
+    .sign{
+        width:60px;
+        margin-top:5px ;
+        font-size: 0.7em;
+        margin-bottom:10px;
+    }
+    .mmm{
+        margin-top: -10px;
+    }
+    .lab{
+        font-size: 0.5em;
+    }
+    .h1h{
+        font-size: 1.5em;
+    }
+}
+
+@media only Screen and (min-width:1000px){
+    
+ }

@@ -1,0 +1,152 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+
+    width: 100%;
+    height: 80px;
+    background-color:#3B5998;
+    
+}
+.logo{
+  
+    float: left;
+    width:30%;
+    margin-top: 25px;
+    height: 80px;
+   
+}
+
+.inp{
+   
+    float: right;
+    width:50%;
+    height: 80px;
+
+}
+.logo>a{
+    text-decoration: none;
+    color: white;
+    padding-left: 180px;
+    font-size: 2.6em;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+.inp>table{
+    padding-left: 95px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.77em;
+}
+
+td{
+    color: white;
+    padding-left: 10px;
+}
+td>a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+input[type=email]{
+    border: 1px solid black;
+}
+
+input[type=password]{
+    border: 1px solid black;
+}
+input[type=submit]{
+    color: white;
+    background-color: #3B5998;
+    border: 1px solid  #111999;
+    border-radius: 2px;
+}
+.main{
+    width: 100%;
+    height: 570px;
+   
+    background: linear-gradient(white,#dee0fc);
+}
+.main1>p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d3582;
+    font-size: 1.3em;
+    font-weight: bold;
+    float: left;
+    padding: 10px;
+
+}
+.main1{
+    width: 38%;
+    margin-left: 179px;
+}
+.main2{
+    float: right;
+    width: 35%;
+  
+    margin-top: -330px;
+    height: 550px;
+    margin-right: 125px;
+    /* border: 1px solid red; */
+   
+}
+.main2>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+    margin-top: 10px;
+    color:  #2b2b30;
+}
+.main2>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin-top: -20px;
+}
+.main2>input{
+    padding: 10px 20px 10px 20px;
+    border:1px solid gray;
+    border-radius: 5px; 
+    font-size: 1em;
+    padding: 10px;
+
+}
+#sur{
+    margin-left: 13px;
+}
+select{
+    padding: 5px;
+    margin-left: 5px;
+    /* border-radius: 6px; */
+}
+.main2>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    float: right;
+    margin-right: 110px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: 1em;
+    font-weight: normal;
+}
+#male{
+    margin-left: 30px;
+}
+#pasa{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+#cre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+input[id=acc]{
+    color: white;
+    background-color: green;
+    border: 1px solid  #111999;
+    border-radius: 2px;
+    border-radius: 5px;
+}

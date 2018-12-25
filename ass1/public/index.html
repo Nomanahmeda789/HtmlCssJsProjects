@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    
+       
+<head>
+ <title>My web</title>
+ <link rel="stylesheet" href="cs.css" >
+ <script>
+     var inp=prompt("Enter the number that you want to perform task:\n1 for Marksheet\n2 for Factorial\n3 for Table\n4 for Simple calculator");
+     if(inp==1){
+     var name=prompt("Enter your name please..","Name");
+     var math=prompt("Enter Your Maths Marks ");
+     var eng=prompt("Enter Your English Marks ");
+     var phy=prompt("Enter Your Maths Marks ");
+     var tot=prompt("Enter Your Total Marks ","100");
+     document.write("Hello  Mr."+name);
+     var rm,re,rp,gm,ge,gp;
+     var pm=(math/tot)*100;
+     var pe=(eng/tot)*100;
+     var pp=(phy/tot)*100;
+     if( pm >=80 && pm<=100){
+            gm="A";
+            rm="Excellent";
+     }
+     else if( pm >=70 && pm<80){
+            gm="B";
+            rm="Good";
+     }
+     else if( pm >=60 && pm<70){
+            gm="C";
+            rm="Not Bad";
+     }
+     else{
+            gm="F";
+            rm="Poor";
+     }
+
+    if( pe >=80 && pe<=100){
+            ge="A";
+            re="Excellent";
+     }
+     else if( pe >=70 && pe<80){
+            ge="B";
+            re="Good";
+     }
+     else if( pe >=60 && pe<70){
+            ge="C";
+            re="Not Bad";
+     }
+     else{
+            ge="F";
+            re="Poor";
+     } 
+     if( pp >=80 && pp<=100){
+            gp="A";
+            rp="Excellent";
+     }
+     else if( pp >=70 && pp<80){
+            gp="B";
+            rp="Good";
+     }
+     else if( pp >=60 && pp<70){
+            gp="C";
+            rp="Not Bad";
+     }
+     else{
+            gp="F";
+            rp="Poor";
+     }
+     document.write("<br />");
+     document.write("<table><tr><th>Subject</th><th>Total Marks</th><th>Marks Obt.</th><th>Percentage</th><th>Grades</th><th>Remarks</th></tr>"+
+                     "<tr><td>Maths</td><td>"+tot+"</td><td>"+math+"</td><td>"+pm+"</td><td>"+gm+"</td><td>"+rm+"</td></tr>"+
+                     "<tr><td>English</td><td>"+tot+"</td><td>"+eng+"</td><td>"+pe+"</td><td>"+ge+"</td><td>"+re+"</td></tr>"+
+                     "<tr><td>Physics</td><td>"+tot+"</td><td>"+phy+"</td><td>"+pp+"</td><td>"+gp+"</td><td>"+rp+"</td></tr></table>");
+     }
+     else if(inp==2){
+         var num1=prompt("Enter the number to find Factorial: ");
+         var fac=1;
+         for(var i=1;i<=num1;i++){
+           fac=fac*i;
+         }
+         document.write("Factorial of a number is :"+fac);
+     }
+     else if(inp==3){
+         var num2=prompt("Enter the number to find Multiplication table:");
+         for(var i=1;i<=10;i++)
+         {
+             document.write(num2+" x "+i+" = "+num2*i+"<br/>");
+         }
+     }
+     else if(inp==4)
+      {
+          var num1=prompt("Enter number 1:");
+          var num2=prompt("Enter number 2:");
+          var op=prompt("Enter the operation you want to perform");
+          var result;
+          if(op=="+"){
+              result=Number(num1)+Number(num2);
+              document.write("Sum of two numbers are : "+result);
+          }
+          else if(op=="-"){
+            result=num1-num2;
+              document.write("Difference of two numbers are : "+result);
+          }
+          
+          else if(op=="/"){
+            result=num1/num2;
+              document.write("Division of two numbers are : "+result);
+          }
+          
+          else if(op=="*"){
+            result=num1*num2;
+              document.write("Multiplication of two numbers are : "+result);
+          }
+          
+          else{
+           
+              document.write("Invalid Operator");
+          }
+      }
+    </script>    
+</head>
+<body>
+      
+</body>
+
+</html>
